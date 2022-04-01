@@ -5,15 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inicio</title>
-    <link rel="stylesheet" href="/src/Styles/s_index.css">
+    <link rel="stylesheet" href="../Styles/s_index.css">
 
 </head>
 <body>
-    <div class="nav">
-        <div class="nav-hijo">
-             <a class="botones" href="/src/pages/campus.html">Login</a>
-             <a class="botones" href="/src/pages/samples.html">Proyect</a>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#">Acceder</a>
+                <a href="#">Acerda de</a>
+                <a href="#">Contacto</a>
+            </nav>
+                 <div class="foto">
+                         <img src="../IMG/UnivalleRecortado.svg.png" width="115" height="115" alt="foto-logo">
+                 </div>
         </div>
-    </div>
+    </header>
+    <section class="main">
+        <section class="acceder">
+            <div class="contenedor">
+                <h3 class="titulo">Acceda al Campus Virtual</h3>
+                    <form class="formulario" action="">
+                        <input type="text" placeholder="Nombre de usuario" name="Nombre de usuario" required>
+                        <input type="password" placeholder="Contraseña" name="contraseña" required>
+                        <input class="boton" type="submit" value="Acceda">
+                    </form> 
+            </div>
+        </section>  
+    </section>
 </body>
 </html>
