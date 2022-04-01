@@ -1,0 +1,43 @@
+body{
+    padding: 0%;
+  
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+}
+
+.nav
+{
+    background-color:rgb(42, 25, 197);
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    justify-content: right;
+}
+.nav-hijo
+{
+   /* margin-left: 50px;*/
+    padding-top: 55px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.botones
+{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto';
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-radius: 5px;
+    
+    text-decoration: none;
+    text-align: center;
+ 
+}
