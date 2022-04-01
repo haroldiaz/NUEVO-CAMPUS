@@ -9,7 +9,7 @@ body{
 
 
 .nav{
-    background-color: rgb(47, 143, 253);
+    background-color:rgb(187, 8, 8);
     width: 100%;
     height: 80px;
 
@@ -26,13 +26,13 @@ body{
     top: 0;
 }
 
-.nuevo
+.conetenedor-materias
 {
-    background-color: rgb(212, 211, 211);
+    background-color: rgb(92, 0, 0);
     height: 600px;
     width:100%;
 
-    padding-top: 30px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;   
 }
@@ -111,4 +111,55 @@ body{
 {
     border-color: brown;
    
+}
+
+.material-icons
+{
+    padding-left: 60%;
+    padding-top: 1px;
+    padding-right: 80px;
+    margin-top: 25px;
+     
+    border-color: brown;
+
+    display: flex;
+    text-decoration: none;
+}
+
+.botones
+{
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto';
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-top: 0px;
+    margin-right:70px;
+
+    border-radius: 5px;
+    
+    text-decoration: none;
+    
+ 
+}
+
+.final-page
+{
+    background-color: rgb(9, 33, 98);
+    height: 520px;
+    width:100%;
+
+    padding-top: 80px;
+   
+   
+
+    display: flex;
+    justify-content: center;   
 }
