@@ -20,77 +20,13 @@ body{
 
     margin-left: 0px;
     margin-bottom: 0px;
-    
+    margin-bottom: 0px;
+
     /*position: sticky;*/
     top: 0;
 }
 
-.conetenedor-materias
-{
-    background-color: #d6d6d6;
-    height: 600px;
-    width:100%;
 
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;   
-}
-
-.card{
-    
-    width: 300px; /*ancho*/
-    height: 350px; /*alto*/
-
-    border-radius: 10px;
-
-    margin-left: 50px;
-    margin-top: 0px;
-    margin-bottom: 50px;
-
-    background-color: rgb(255, 255, 255);
-    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
-
-    border-width:0.05px;
-	border-style:solid;
-    border-color: rgb(131, 131, 131);
-
-    transition: all 400ms ease;
-}
-.card:hover
-{
-    box-shadow:2px 5px 4px 4px rgb(179, 179, 179);
-    transform: translateY(-2%);
-    /*transform: translatex(-2%);*/
-}
-
-.img{
-    width:100%;/*ancho*/
-    height: 70%; 
-    border-radius: 10px  10px 0px 0px;
-}
-
-.titulo
-{
-    letter-spacing: .2px;
-    padding-left: 15px;
-    padding-top: 0px;
-    padding-bottom: 5px;
-    font-size: 24px;
-    font-family: "Roboto";
-    color: rgb(0, 0, 0);
-}
-.descripcion{
-    padding-left: 20px;
-    padding-bottom: 0px;
-    padding-top: 0%;
-    margin-top: 0;
-    margin-bottom: 0px;
-
-    
-    font-size: 16px;
-    font-family: "Roboto";
-    color: rgb(49, 49, 49);
-}
 .nuevo_div
 {
     background-color: rgb(92, 92, 92);
@@ -134,7 +70,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom:0px;
 
     margin-top: 0px;
     margin-right:70px;
@@ -156,3 +92,4 @@ body{
     display: flex;
     justify-content: center;   
 }
+
