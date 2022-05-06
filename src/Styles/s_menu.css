@@ -1,6 +1,5 @@
 body{
     padding: 0%;
- 
     margin: auto;
 
     color: rgb(255, 255, 255);
@@ -11,7 +10,7 @@ body{
 .nav{
     background-color:rgb(187, 8, 8);
     width: 100%;
-    height: 80px;
+    height: 200px;
 
 
     padding-top: 10px;
@@ -22,13 +21,13 @@ body{
     margin-left: 0px;
     margin-bottom: 0px;
     
-    position: sticky;
+    /*position: sticky;*/
     top: 0;
 }
 
 .conetenedor-materias
 {
-    background-color: rgb(92, 0, 0);
+    background-color: #d6d6d6;
     height: 600px;
     width:100%;
 
@@ -68,7 +67,6 @@ body{
     width:100%;/*ancho*/
     height: 70%; 
     border-radius: 10px  10px 0px 0px;
-   
 }
 
 .titulo
@@ -110,7 +108,6 @@ body{
 .clic
 {
     border-color: brown;
-   
 }
 
 .material-icons
@@ -119,7 +116,6 @@ body{
     padding-top: 1px;
     padding-right: 80px;
     margin-top: 25px;
-     
     border-color: brown;
 
     display: flex;
@@ -147,7 +143,6 @@ body{
     
     text-decoration: none;
     
- 
 }
 
 .final-page
@@ -157,8 +152,6 @@ body{
     width:100%;
 
     padding-top: 80px;
-   
-   
 
     display: flex;
     justify-content: center;   
