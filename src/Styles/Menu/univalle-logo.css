@@ -1,0 +1,104 @@
+.nav
+{
+    height: 20%;
+    display: flex;
+    justify-content: center;   
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color: #2e2e2e;
+}
+.univalle-logo
+{
+
+    margin-top: 20px;
+    margin-left: 60px;
+    padding-left: 10px;
+
+
+    height:150px;
+    width: 600px;
+
+    border: 1px solid #1f1c1c;
+    
+    display: flex;
+    justify-content: left;  
+}
+
+.logo
+{
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 0px;
+    height:70px;
+    width: 70px;
+
+}
+.content-text{
+
+}
+
+.titulo{
+    color: aliceblue;
+    font-size: 28px;
+    font-family: 'Roboto';
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    padding-left: 10px;
+
+    border: 1px solid #1f1c1c;
+
+    height: 30px;
+    width: 300px;
+}
+.subtitulo{
+    color: aliceblue;
+    font-size: 22px;
+    font-family: 'Roboto';
+
+    margin-left: 20px;
+    margin-top: 0px;
+    
+    padding-left: 10px;
+    
+    
+
+    height: 30px;
+    width: 300px;
+
+    border: 1px solid #1f1c1c;
+}
+
+/** Perfil de Usuario**/
+
+.univalle-cuenta
+{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 40px;
+    padding-right: 50px;
+    padding-top: 50px;
+    height:100px;
+    width: 500px;
+
+    border: 1px solid #1f1c1c;
+
+    display: flex;
+    justify-content: right;   
+}
+
+.univalle-cuenta h1
+{
+    color: aliceblue;
+    font-size: 22px;
+    font-family: 'Roboto';
+}
+
+.cuenta-icono
+{
+    padding-left: 20px;
+    height:50px;
+    width: 50px;
+    
+}
