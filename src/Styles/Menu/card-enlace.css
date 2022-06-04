@@ -1,0 +1,73 @@
+
+.contenedor-enlaces
+{
+    margin-top:0%;
+    margin: 0px;
+
+    padding-top: 0%;
+    padding-left: 15px;
+    
+    width: 100%;
+    height:250px;
+    
+    background: #ffffff;
+    
+    display: flex;
+    justify-content: center;   
+
+}
+
+
+.card-enlace
+{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    background-color: rgb(228, 4, 4);
+
+    height:130px;
+    width: 250px;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center; 
+    /*border: 1px solid #000000;*/
+    
+    border: 1px solid #000000;
+}
+
+.card-title
+{
+    margin-left: 0px;
+    margin-top: 60px;
+    margin-right: 20px;
+
+
+    padding-left: 10px;
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+    width: 100px;
+    height: 25px;
+    /*border: 1px solid #1f1c1c;*/
+}
+
+.card-icono
+{
+    margin-top: 45px;
+    margin-right: 0px;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    
+
+    border-radius: 10px;
+
+    /*border: 1px solid #1f1c1c;*/
+}
+
+
+
+
