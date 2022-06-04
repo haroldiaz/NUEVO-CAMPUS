@@ -5,16 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Campus</title>
+    <title>Menu</title>
+
+    <link rel="shortcut icon" href="/src/resources/img/UnivalleRecortado.png">
+
     <link rel="stylesheet" href="/src/Styles/Menu/s_menu.css">
     <link rel="stylesheet" href="/src/Styles/Menu/card-enlace.css">
     <link rel="stylesheet" href="/src/Styles/Menu/card-materias.css">
     <link rel="stylesheet" href="/src/Styles/Menu/footer.css"></link>
-    <link rel="stylesheet" href="/src/Styles/Menu/univalle-logo.css"></link>
+    
     <link rel="stylesheet" href="/src/Styles/Menu/semestre-actual.css"></link>
+
+    <!--Barra Nav-->
+    <link rel="stylesheet" href="/src/Styles/Menu/univalle-perfil.css"></link>
+    <link rel="stylesheet" href="/src/Styles/Menu/univalle-logo.css"></link>
     
-    
-    <!----Material Icons-->
+    <!--Iconos -->
+    <script src="https://kit.fontawesome.com/fffc15b23d.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -28,61 +35,78 @@
             </div>
             
         </div>
-        <div class="univalle-cuenta" >
+
+        <div class="univalle-perfil" >
+            <div class="fondo">
+                <h1 class="nombre">JEAN HAROLD ALVIZ DIAZ </h1>
+                <i class="icono-user fa-solid fa-circle-user"></i>
+            </div>
+                
+        </div>
+
+    </div>
+    
+        <div class="contenedor-enlaces">
+            <div class="card-enlace">
+                <h1 class = "card-title">Biblioteca</h1>
+                <img src="/src/resources/iconos/biblioteca.png" class="card-icono"></img>
+            </div>
+            <div class="card-enlace">
+                <h1 class = "card-title">Correo Institucional</h1>
+                <img src="/src/resources/iconos/Mail.png" class="card-icono"></img>
+            </div>
+            <div class="card-enlace">
+                <h1 class = "card-title">Reglamento Estudiantil</h1>
+                <img src="/src/resources/iconos/Book.png" class="card-icono"></img>
+            </div>
+            <div class="card-enlace">
+                <h1 class = "card-title">Bienestar Universitario</h1>
+                <img src="/src/resources/iconos/Add.png"class="card-icono"></img>
+            </div>
+        
+        </div>
+        <div class="contenedor-semestre">
+            <h1 class="texto-semestre">Semestre Actual</h1>
+            <div class="linea"></div>
+            <h1 class="texto-cursos">Cursos Regulares</h1>
+        </div>
+        <div class="conetenedor-materias" >
+            <a class="clic" href="/src/Pages/Materia.html">
+                <div class="card">
+                            <img class="img" src="/src/resources/castillo.jpg" >
+                            <h1 class="titulo-card">Calculo 1</h1>
+                            <p class = descripcion>155500115151</p>
+                </div>
+            </a>
+            <a class="clic" href="/src/Pages/Materia.html">
+                <div class="card">
+                            <img class="img" src="/src/resources/codigo.jpg">
+                            <h1 class="titulo-card">Deporte Formativo</h1>
+                            <p class = descripcion>Codigo #1000</p>
+                </div>
+            </a>
+            <a class="clic" href="/src/Pages/Materia.html">
+            <div class="card">
+                        <img class="img" src="/src/resources/codigo.jpg">
+                        <h1 class="titulo-card">Diseno de Interfacez</h1>
+                        <p class = descripcion>Codigo #1000</p>
+            </div>
+            </a>
+            <a class="clic" href="/src/Pages/Materia.html">
+            <div class="card">
+                        <img class="img" src="/src/resources/codigo.jpg">
+                        <h1 class="titulo-card">Diseno de Interfacez</h1>
+                        <p class = descripcion>Codigo #1000</p>
+            </div>
+            </a>
             
-            <h1>Jean harold Alviz Diaz</h1>
-            <img src="/src/resources/iconos/User.png" class="cuenta-icono"></img>  
+            
         </div>
 
+    <div class="footer">
+        <div>
 
-    </div>
-    
-    <div class="contenedor-enlaces">
-        <div class="card-enlace">
-            <h1 class = "card-title">Biblioteca</h1>
-            <img src="/src/resources/iconos/biblioteca.png" class="card-icono"></img>
         </div>
-        <div class="card-enlace">
-            <h1 class = "card-title">Correo Institucional</h1>
-            <img src="/src/resources/iconos/Mail.png" class="card-icono"></img>
-        </div>
-        <div class="card-enlace">
-            <h1 class = "card-title">Reglamento Estudiantil</h1>
-            <img src="/src/resources/iconos/Book.png" class="card-icono"></img>
-        </div>
-        <div class="card-enlace">
-            <h1 class = "card-title">Bienestar Universitario</h1>
-            <img src="/src/resources/iconos/Add.png"class="card-icono"></img>
-        </div>
-    
-    </div>
-    <div class="contenedor-semestre">
-        <h1 class="texto-semestre">Semestre Actual</h1>
-        <div class="linea"></div>
-        <h1 class="texto-cursos">Cursos Regulares</h1>
-    </div>
-    <div class="conetenedor-materias" >
-        
-        
-        <a class="clic" href="/src/Pages/Materia.html">
-        <div class="card">
-                    <img class="img" src="/src/resources/castillo.jpg" >
-                    <h1 class="titulo-card">Calculo 1</h1>
-                    <p class = descripcion>Codigo #1000</p>
-        </div>
-        </a>
-        <div class="card">
-                    <img class="img" src="/src/resources/codigo.jpg">
-                    <h1 class="titulo-card">Deporte Formativo</h1>
-                    <p class = descripcion>Codigo #1000</p>
-        </div>
-        <div class="card">
-                    <img class="img" src="/src/resources/codigo.jpg">
-                    <h1 class="titulo-card">Diseno de Interfacez</h1>
-                    <p class = descripcion>Codigo #1000</p>
-        </div>
-        
-        
     </div>
     
 </body>

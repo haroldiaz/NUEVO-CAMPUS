@@ -5,13 +5,16 @@
     height: 150px;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    padding-left:70px;
+    /*border: 1px black solid;*/
+
+    /* text-align: left;*/
 }
 
 
 
 .texto-semestre{
-
-    
     padding-left: 60px;
     color: black;
     font-size: 40px;
@@ -23,7 +26,7 @@
     margin-left:60px;
     
     background-color: rgb(104, 104, 104);
-    width: 90%;
+    width: 88%;
     height: 5px;
     border-radius: 20px;
 
