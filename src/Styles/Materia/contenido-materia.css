@@ -1,9 +1,7 @@
 .contenido-materia
 {
     display: flex;
-    justify-content: center;
-
-
+    justify-content: space-between;
 }
 
 .contenido
@@ -14,12 +12,11 @@
     width: 50%;
     height:500px;
 
-
     border-right: 20px;
     color: #000000;
-    /*border: 1px solid #1f1c1c;*/
-    
     background-color: #ffffff;
+
+    /*border: 1px solid #1f1c1c;*/
 }
 
 .contenido > h1

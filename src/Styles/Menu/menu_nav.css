@@ -1,11 +1,8 @@
 body{
     padding: 0%;
     margin: auto;
-
-    
     font-family: "Roboto";
 }
-
 
 .nav{
     background-color:rgb(187, 8, 8);
@@ -93,3 +90,8 @@ body{
     justify-content: center;   
 }
 
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}

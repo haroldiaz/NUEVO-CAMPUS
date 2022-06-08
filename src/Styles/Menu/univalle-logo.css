@@ -2,7 +2,8 @@
 {
     height: 20%;
     display: flex;
-    justify-content: left;   
+    justify-content: center;   
+
     margin-left: 0px;
     padding-left: 0px;
     background-color: #2e2e2e;
@@ -10,14 +11,14 @@
 .univalle-logo
 {
     margin-top: 20px;
-    margin-left:140px;
-    margin-right: 120px;
+    margin-left:0px;
+    margin-right:6%;
     
     padding-left: 0px;
 
 
     height:150px;
-    width: 600px;
+    width: 450px;
 
     /*border: 1px solid #1f1c1c;*/
     
@@ -32,9 +33,6 @@
     padding-left: 0px;
     height:70px;
     width: 70px;
-
-}
-.content-text{
 
 }
 
@@ -57,14 +55,10 @@
     color: aliceblue;
     font-size: 22px;
     font-family: 'Roboto';
-
+    
     margin-left: 20px;
     margin-top: 0px;
-    
     padding-left: 10px;
-    
-    
-
     height: 30px;
     width: 300px;
 
