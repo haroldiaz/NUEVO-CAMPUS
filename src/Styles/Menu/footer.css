@@ -2,8 +2,11 @@
     font-family: 'Roboto';
     color: rgb(255, 255, 255);
     background-color: rgb(36, 36, 36);
-    height: 300px;
+    height: 260px;
     width: 100%;
+    
+    margin: 0px;
+    padding: 0%;
     display: flex;
     justify-content: center;
 }
@@ -11,29 +14,52 @@
 .contenedor
 {
     width: 100%;
-    
 }
 
 .redes
 {
     height: 250px;
-    width: 50%;
-    border: 1px black solid;
-    background-color: green;
+    width: 45%;
+    display: flex;
+    justify-content: right;
 
-    display: block;
-    justify-content: center;
+    /*border: 1px black solid;*/
+    /*background-color: rgb(145, 145, 145);*/
+}
+.conten-redes
+{
+    width: 240px;
+    height: 80px;
+    margin-top: 160px;
+    margin-right:260px;
+    /*border: 1px black solid;*/
 }
 
 .icono-redes{
-    height: 50px;
-    width: 50px;
-    font-size:40px;
+    height: 40px;
+    width: 40px;
+    font-size:26px;
 }
-
 .texto
 {
     height: 250px;
     width: 50%;
-    border: 1px black solid;
+    text-indent: 10px;
+
+    padding-top: 40px;
+    
+    /*border: 1px black solid;*/
+}
+
+.texto h3
+{
+    font-size: 16px;
+    letter-spacing: 1px;
+    /*border: 1px black solid;*/
+
+    width: 500px; /*anchoss*/
+    height:20px;
+
+    padding: 0%;
+    margin: 0%;
 }

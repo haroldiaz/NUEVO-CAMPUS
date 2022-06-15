@@ -34,6 +34,8 @@
     height:70px;
     width: 70px;
 
+    animation-name: anim-titulo;
+    animation-duration: 1s;
 }
 
 .titulo{
@@ -50,6 +52,9 @@
 
     height: 30px;
     width: 300px;
+
+    animation-name: anim-titulo;
+    animation-duration: 1s;
 }
 .subtitulo{
     color: aliceblue;
@@ -62,5 +67,17 @@
     height: 30px;
     width: 300px;
 
+    animation-name: anim-titulo;
+    animation-duration: 3s;
     /*border: 1px solid #1f1c1c;*/
+}
+
+@keyframes anim-titulo
+{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
 }

@@ -7,10 +7,13 @@
     padding-top: 50px;
     padding-bottom: 0px;
     padding-left: 20px;
+    
     margin-bottom: 20px;
 
     display: flex;
     justify-content: center;   
+
+    /*background-color: red;*/
 }
 
 .card{
@@ -51,28 +54,33 @@
 
 .titulo-card
 {
-    padding-left: 30px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    
-    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-size: 20px;
     font-family: 'Roboto';
     color: rgb(255, 255, 255);
     
+    width:200px;
+    height: 22px;
+
+    /*border: 1px black solid;*/
     
 }
 .descripcion
 {
-    padding-left: 30px;
-    padding-bottom: 0px;
-    padding-top: 0%;
-    margin-top: 0;
+    margin-left: 30px;
+    margin-top: 0px;
     margin-bottom: 0px;
 
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Roboto';
     color: rgb(255, 255, 255);
 
+    width: 100px;
+    height: 20px;
+
+    /*border: 1px black solid;*/
 }
 
 .titulo-card h1 p

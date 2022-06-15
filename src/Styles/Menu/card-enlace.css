@@ -34,6 +34,9 @@
     justify-content: center; 
     /*border: 1px solid #000000;*/
 
+    animation-name: anim-enlaces;
+    animation-duration:1s ;
+
 }
 
 .card-enlace:hover
@@ -61,6 +64,8 @@
     display: flex;
     justify-content: center;
     /*border: 1px solid #1f1c1c;*/
+
+    animation: anim-titulo 2s ;
 }
 
 .card-icono
@@ -84,4 +89,26 @@
 
 
 
+/*------------Animacion enlaces-------------*/
+@keyframes anim-enlaces
+{
+    0%{
+        transform: translateY(-20%);
+    }
+    50%{
+        transform: translateY(40%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
 
+@keyframes anim-titulo
+{
+    0%{
+        opacity:20%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
