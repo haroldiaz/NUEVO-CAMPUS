@@ -1,0 +1,114 @@
+
+.contenedor-enlaces
+{
+    margin-top:0%;
+    margin: 0px;
+
+    padding-top: 0%;
+    padding-left: 0px;
+    
+    width: 100%;
+    height:250px;
+    
+    background: #ffffff;
+    
+    display: flex;
+    justify-content: center;   
+
+}
+
+
+.card-enlace
+{
+    margin-top: 50px;
+    margin-left: 50px;
+
+    background-color: rgb(228, 4, 4);
+    box-shadow: 0 4px 8px 0 rgba(88, 88, 88, 0.2), 0 6px 20px 0 rgba(119, 119, 119, 0.404);
+    height:120px; /*alto*/
+    width: 250px;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center; 
+    /*border: 1px solid #000000;*/
+
+    animation-name: anim-enlaces;
+    animation-duration:1s ;
+
+}
+
+.card-enlace:hover
+{
+    background-color: rgb(119, 0, 0);
+    box-shadow:2px 5px 4px 4px rgb(179, 179, 179);
+    transform: translateY(-2%);
+}
+
+.card-title
+{
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 20px;
+
+
+    padding-left: 0px;
+
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+
+    width: 120px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid #1f1c1c;*/
+
+    animation: anim-titulo 2s ;
+}
+
+.card-icono
+{
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    font-size:40px;
+
+    border-radius: 10px;
+    
+    color: aliceblue;
+    /*border: 1px solid #1f1c1c;*/
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/*------------Animacion enlaces-------------*/
+@keyframes anim-enlaces
+{
+    0%{
+        transform: translateY(-20%);
+    }
+    50%{
+        transform: translateY(40%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes anim-titulo
+{
+    0%{
+        opacity:20%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}

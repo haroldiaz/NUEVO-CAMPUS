@@ -1,0 +1,65 @@
+
+.card-info
+{
+    width: 50%;
+    height: 500px;
+    
+    margin-left: 0px;
+    margin-right:0px;
+    display: block;
+    justify-content: center;
+    /*border: 1px black solid;*/
+}
+
+
+
+.card
+{
+    width: 400px;
+    height: 80px;
+    
+    border: 1px black solid;
+    border-radius: 10px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card h1
+{
+    color: black;
+    font-family: 'Roboto', Courier, monospace;
+    font-size: 25px;
+
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+
+.icono-info
+{
+
+    height: 25px;
+    width: 30px;
+
+    margin-top: 25px;
+    margin-left: 00px;
+    padding-right:40px;
+    font-size: 28px;
+    
+    color: black;
+    /*border: 1px black solid;*/
+    
+}
+
+.card:hover
+{
+    box-shadow:2px 2px 2px 2px rgba(192, 192, 192, 0.411);
+    transform: translateY(-8%);
+    background-color: rgba(255, 0, 21, 0.11);
+}
